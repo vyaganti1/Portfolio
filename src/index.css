@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Scrollbar Styles */
+.scrollbar-thin::-webkit-scrollbar { width: 6px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 3px; }
+.scrollbar-thin::-webkit-scrollbar-track { background-color: transparent; }
+.dark .scrollbar-thin::-webkit-scrollbar-thumb { background-color: #475569; }
+
+/* Global Styles */
+body {
+  font-family: 'Inter', sans-serif;
+}
