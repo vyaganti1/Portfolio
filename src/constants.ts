@@ -3,7 +3,7 @@ import { Experience, Project, Skill } from './types';
 export const PROFILE = {
   name: "Venkatesh Yagati",
   role: "Senior Java Full Stack Engineer",
-  tagline: "Building scalable microservices and robust web applications with 5+ years of experience.",
+  tagline: "Building scalable microservices and robust web applications with 4+ years of experience.",
   summary: "I am a dedicated Software Engineer specializing in Java Enterprise development, Microservices architecture, and modern frontend frameworks like React. With a passion for clean code and cloud-native solutions, I bridge the gap between complex backend logic and intuitive user interfaces.",
   email: "venkateshyagati006@gmail.com",
   location: "San Francisco, CA",
@@ -53,7 +53,7 @@ export const EXPERIENCES: Experience[] = [
     id: "exp3",
     role: "Junior Java Developer",
     company: "Accenture",
-    period: "2020 - 2021",
+    period: "2019 - 2021",
     description: [
       "Assisted in the development of the core e-commerce platform.",
       "Wrote unit and integration tests achieving 90% code coverage.",
